@@ -2,7 +2,7 @@
 " For vim-airline (https://github.com/vim-airline/vim-airline)
 " By Filipwoj
 
-let s:scheme_slug = substitute("chamber", "-", "_", "g")
+let s:scheme_slug = substitute("base16-green-machine", "-", "_", "g")
 
 let g:airline#themes#base16_{s:scheme_slug}#palette = {}
 
